@@ -1,6 +1,6 @@
-# epicontrol
+# Ucontrol
 
-for epidemiological control
+for for environmental control
 
 ## Getting Started
 
