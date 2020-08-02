@@ -19,7 +19,7 @@ class Cards extends StatelessWidget {
           padding: EdgeInsets.only(left: 15.0),
           child: Row(
             children: <Widget>[
-              Icon(icon, size: 50.0, color: kWhiteColor,),
+              Icon(icon, size: 30.0, color: kWhiteColor,),
               SizedBox(width: 10.0),
               Text(text, style: kHomeTextStyle)
             ],

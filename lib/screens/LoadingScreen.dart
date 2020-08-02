@@ -41,7 +41,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
             SizedBox(
               width: 40.0,
             ),
-            Text('EpiControl', style: TextStyle(color: kWhiteColor, fontSize: 18.0, fontWeight: FontWeight.w700)),
+            Text('UControl', style: TextStyle(color: kWhiteColor, fontSize: 18.0, fontWeight: FontWeight.w700)),
           ],
         ),
       ),

@@ -54,7 +54,7 @@ class _CollectScreenState extends State<CollectScreen> {
       body: SafeArea(
         child: GridView.count(
           crossAxisCount: 1,
-          childAspectRatio: MediaQuery.of(context).size.height / 200,
+          childAspectRatio: MediaQuery.of(context).size.height / 150,
           crossAxisSpacing: 5.0,
           padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 5.0),
           mainAxisSpacing: 5.0,
@@ -85,7 +85,7 @@ class _CollectScreenState extends State<CollectScreen> {
               children: <Widget>[
                 Container(
                   height: 800,
-                  child: imageList.length == 0 ?
+                  child: imageList.isEmpty ?
                   Text('no image seleted',style: TextStyle(color: kGreenColor)) :
                   GridView.count(
                       crossAxisCount: 3,

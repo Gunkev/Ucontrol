@@ -20,7 +20,7 @@ class _MapScreenState extends State<MapScreen> {
 
   MapType _currentMapType = MapType.normal;
   GoogleMapController mapController;
-  static const LatLng center = LatLng(45.521563, -122.677433);
+  static const LatLng center = LatLng(11.500731, 3.857800);
   final Set<Marker> _markers = {};
   LatLng _lastMapPosition = center;
 
@@ -90,14 +90,14 @@ class _MapScreenState extends State<MapScreen> {
                     child: const Icon(Icons.map, size: 36.0,),
                   ),
                   SizedBox(height: 15.0),
-                  FloatingActionButton(
-                    onPressed: () {
-                      _onAddMarkerButtonPress();
-                    },
-                    materialTapTargetSize: MaterialTapTargetSize.padded,
-                    backgroundColor: Colors.orange,
-                    child: const Icon(Icons.location_on, size: 36.0,),
-                  ),
+//                  FloatingActionButton(
+//                    onPressed: () {
+//                      _onAddMarkerButtonPress();
+//                    },
+//                    materialTapTargetSize: MaterialTapTargetSize.padded,
+//                    backgroundColor: Colors.orange,
+//                    child: const Icon(Icons.location_on, size: 36.0,),
+//                  ),
                 ],
               ),
             ),

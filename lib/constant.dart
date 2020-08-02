@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 
 const kWhiteColor = Colors.white;
 const kRedColor = Colors.redAccent;
-const kHomeTextStyle = TextStyle(color: kWhiteColor, fontSize: 20.0, fontWeight: FontWeight.w500);
+const kHomeTextStyle = TextStyle(color: kWhiteColor, fontSize: 16.0, fontWeight: FontWeight.w500);
+const kCardTextStyle = TextStyle(color: kRedColor, fontSize: 18.0, fontWeight: FontWeight.w500);
 const kBlueColor = Colors.blue;
 const kGreenColor = Colors.green;
 const kPinkColor = Colors.pink;
